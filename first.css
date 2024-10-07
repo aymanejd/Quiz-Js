@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body 
+{
+background: #001e4d;
+
+
+}
+.app
+{
+
+background: #fff;
+width: 90%;
+max-width: 600px;
+margin: 100px auto 0;
+border-radius: 10px;
+padding: 30px;
+position: relative;
+
+
+}
+.headr{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid #222;
+    padding-bottom: 20px;
+    background-color: #eee;
+    padding-top: 20px;
+    padding: 20px 30px;
+    border-radius: 10px;
+
+
+}
+.headr p{
+    color: #001e4d;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    width: fit-content;
+    padding: 2px 10px;
+    border-radius: 10px;
+
+}
+.app h1{
+
+    font-size: 25px;
+    color: #001e4d;
+    font-weight: 600;
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.quiz{
+
+    padding: 60px 0 0px;
+}
+
+.btn{
+    background: #fff;
+    color: #222;
+    font-weight:  500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.btn:hover:not([disabled]){
+    background:  #222;
+    color:#fff;
+}
+
+.btn:disabled{
+    cursor: not-allowed;
+}
+.correct{
+    background-color: #9aeabc;
+}
+.incorrect{
+    background-color: #ff9393;
+}
+#next
+{
+background: #001e4d;
+color: #fff;
+font-weight: 500;
+width: 150px;
+border: 0;
+padding: 10px;
+margin: 20px auto 0;
+border-radius: 4px;
+cursor: pointer;
+display: block ;
+
+}
+.score-container {
+    text-align: center; 
+    margin-top: 20px; 
+    padding: 20px; 
+    background: rgba(255, 255, 255, 0.8); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); 
+}
+
+.score-container h2 {
+    color: #001e4d; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 28px; 
+    margin-bottom: 10px; 
+}
+
+.score-container p {
+    color: #555; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px; 
+}
